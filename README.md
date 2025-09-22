@@ -91,7 +91,7 @@ To run this project locally, follow these steps:
 ### Steps
 1.  **Clone the repository** into your web server's root directory (e.g., `wamp/www/`):
     ```bash
-    git clone https://github.com/kahkei93/TehXpress
+    git clone https://github.com/kahkei93/Milk-Tea-Ordering-System.git
     ```
 2.  **Download the homepage video file** (required for full functionality):
     - Go to the [Releases](../../releases) page
