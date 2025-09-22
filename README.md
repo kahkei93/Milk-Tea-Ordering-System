@@ -24,7 +24,8 @@ A full-stack, responsive web application for a modern milk tea shop. This system
 | Login Page | Menu Page | Drink Customization |
 | :---: | :---: | :---: |
 | <img width="492" height="577" alt="login image" src="https://github.com/user-attachments/assets/fc2f0d57-4f70-43fa-82ca-3b30685d8fd7" />
- | ![Menu](screenshots/menu.png) | ![Customize](screenshots/customize.png) |
+ | <img width="1875" height="907" alt="menu image" src="https://github.com/user-attachments/assets/c9900145-3553-4d67-bf12-69a9882b0c0e" />
+ |
 | **Shopping Cart** | **Checkout Page** | **Order Success** |
 | ![Cart](screenshots/cart.png) | ![Checkout](screenshots/checkout.png) | ![Success](screenshots/success.png) |
 
