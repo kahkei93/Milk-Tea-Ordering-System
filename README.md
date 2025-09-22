@@ -89,10 +89,10 @@ To run this project locally, follow these steps:
 - [WAMP Server](https://www.wampserver.com/en/) (or similar stack like XAMPP/MAMP)
 
 ### Steps
-1.  **Clone the repository** into your web server's root directory (e.g., `wamp/www/`):
-    ```bash
-    git clone https://github.com/kahkei93/Milk-Tea-Ordering-System.git
-    ```
+1.  **Download the complete project:**
+    - Go to the [Releases](../../releases) page
+    - **Download the `TehXpress.zip` file** (this contains all source code files)
+    - Extract the ZIP file into your web server's root directory (e.g., `wamp/www/TehXpress`)
 2.  **Download the homepage video file** (required for full functionality):
     - Go to the [Releases](../../releases) page
     - Download the `TehXpress.mp4` file
