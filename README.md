@@ -91,17 +91,21 @@ To run this project locally, follow these steps:
 ### Steps
 1.  **Clone the repository** into your web server's root directory (e.g., `wamp/www/`):
     ```bash
-    git clone https://github.com/kable23/TehXpress
+    git clone https://github.com/kahkei93/TehXpress
     ```
+2.  **Download the homepage video file** (required for full functionality):
+    - Go to the [Releases](../../releases) page
+    - Download the `TehXpress.mp4` file
+    - Place it in the main project directory (where `index.php` is located)
+      
+3.  **Start WAMP Server** and ensure both the **Apache** and **MySQL** services are running (the WAMP icon should be green in your system tray).
 
-2.  **Start WAMP Server** and ensure both the **Apache** and **MySQL** services are running (the WAMP icon should be green in your system tray).
-
-3.  **Create the Database:**
+4.  **Create the Database:**
     - Open phpMyAdmin by going to `http://localhost/phpmyadmin` in your browser.
     - Create a new database named `user`.
     - Import the SQL file (provided in the repository) to create the necessary tables.
 
-4.  **Configure Database Connection (if needed):**
+5.  **Configure Database Connection (if needed):**
     - The default WAMP settings are usually:
     ```php
     $host = "localhost";
@@ -110,7 +114,7 @@ To run this project locally, follow these steps:
     $dbname = "user";    // Your database name
     ```
 
-5.  **Run the Application:**
+6.  **Run the Application:**
     - Open your browser and go to `http://localhost/TehXpress/`.
 
 
