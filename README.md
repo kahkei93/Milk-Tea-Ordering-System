@@ -21,15 +21,12 @@ A full-stack, responsive web application for a modern milk tea shop. This system
 
 ## 🖼️ Screenshots
 
-| Login Page | Menu Page | Drink Customization |
+| | | |
 | :---: | :---: | :---: |
-| <img width="492" height="577" alt="login image" src="https://github.com/user-attachments/assets/fc2f0d57-4f70-43fa-82ca-3b30685d8fd7" />
- | <img width="1875" height="907" alt="menu image" src="https://github.com/user-attachments/assets/c9900145-3553-4d67-bf12-69a9882b0c0e" />
- |
+| **Login Page** | **Menu Page** | **Drink Customization** |
+| <a href="https://github.com/user-attachments/assets/fc2f0d57-4f70-43fa-82ca-3b30685d8fd7"><img src="https://github.com/user-attachments/assets/fc2f0d57-4f70-43fa-82ca-3b30685d8fd7" width="300" alt="Login Page"></a> | <div><a href="https://github.com/user-attachments/assets/c9900145-3553-4d67-bf12-69a9882b0c0e"><img src="https://github.com/user-attachments/assets/c9900145-3553-4d67-bf12-69a9882b0c0e" width="145" alt="Menu - Classic Series" style="margin-right: 5px;"></a><a href="https://github.com/user-attachments/assets/03c71508-6c40-46a0-99eb-97ab7dae42c4"><img src="https://github.com/user-attachments/assets/03c71508-6c40-46a0-99eb-97ab7dae42c4" width="145" alt="Menu - Full Page" style="margin-left: 5px;"></a></div> | <a href="https://github.com/user-attachments/assets/b15fe278-f013-4dc9-ba5e-37825b4526a4"><img src="https://github.com/user-attachments/assets/b15fe278-f013-4dc9-ba5e-37825b4526a4" width="300" alt="Drink Customization"></a> |
 | **Shopping Cart** | **Checkout Page** | **Order Success** |
-| ![Cart](screenshots/cart.png) | ![Checkout](screenshots/checkout.png) | ![Success](screenshots/success.png) |
-
-> **Note:** *You need to add these screenshots later. I will show you how.*
+| <a href="https://github.com/user-attachments/assets/da949688-4dc8-4640-9733-ecadf7ec56a3"><img src="https://github.com/user-attachments/assets/da949688-4dc8-4640-9733-ecadf7ec56a3" width="300" alt="Shopping Cart"></a> | <a href="https://github.com/user-attachments/assets/683ecf05-8517-4472-8a3a-f222d2d684a2"><img src="https://github.com/user-attachments/assets/683ecf05-8517-4472-8a3a-f222d2d684a2" width="300" alt="Checkout Page"></a> | <a href="https://github.com/user-attachments/assets/56ec18aa-c819-43aa-85fe-1757eed69cf4"><img src="https://github.com/user-attachments/assets/56ec18aa-c819-43aa-85fe-1757eed69cf4" width="300" alt="Order Success"></a> |
 
 ## 🗄️ Database Schema
 
@@ -56,6 +53,7 @@ The application uses a MySQL database with the following core tables:
 | `total_amount` | DECIMAL | Total cost of the order |
 | `created_at` | TIMESTAMP | Order creation time |
 
+
 ## 🛠️ Tech Stack
 
 -   **Frontend:** HTML5, CSS3, Vanilla JavaScript
@@ -64,36 +62,39 @@ The application uses a MySQL database with the following core tables:
 -   **Server:** XAMPP (Local Development Environment)
 -   **Client-Side Storage:** localStorage (for cart functionality)
 
+
 ## 🚀 Installation & Setup
 
 To run this project locally, follow these steps:
 
 ### Prerequisites
-- [XAMPP](https://www.apachefriends.org/) (or similar stack like WAMP/MAMP)
+- [WAMP Server](https://www.wampserver.com/en/) (or similar stack like XAMPP/MAMP)
 
 ### Steps
-1.  **Clone the repository** into your web server's root directory (e.g., `xampp/htdocs/`):
+1.  **Clone the repository** into your web server's root directory (e.g., `wamp/www/`):
     ```bash
-    git clone https://github.com/YOUR_USERNAME/Milk-Tea-Ordering-System.git
+    git clone https://github.com/kable23/TehXpress
     ```
-2.  **Start XAMPP** and run the **Apache** and **MySQL** modules.
+
+2.  **Start WAMP Server** and ensure both the **Apache** and **MySQL** services are running (the WAMP icon should be green in your system tray).
+
 3.  **Create the Database:**
-    - Open phpMyAdmin (usually at `http://localhost/phpmyadmin`).
+    - Open phpMyAdmin by going to `http://localhost/phpmyadmin` in your browser.
     - Create a new database named `user`.
-    - Import the SQL file (if provided in the repository) to create the necessary tables.
+    - Import the SQL file (provided in the repository) to create the necessary tables.
+
 4.  **Configure Database Connection (if needed):**
-    - Check the PHP files (e.g., `loginForm.php`) and ensure the database connection settings (`$host`, `$user`, `$pass`, `$dbname`) match your local XAMPP configuration.
+    - The default WAMP settings are usually:
+    ```php
+    $host = "localhost";
+    $user = "root";      // Default WAMP MySQL username
+    $pass = "";          // Default WAMP MySQL password (empty)
+    $dbname = "user";    // Your database name
+    ```
+
 5.  **Run the Application:**
-    - Open your browser and go to `http://localhost/Milk-Tea-Ordering-System/`.
+    - Open your browser and go to `http://localhost/TehXpress/`.
 
-## 📖 Detailed Report
-For an in-depth explanation of the code, functionality, and implementation challenges, please refer to the full project report: [**UECS2194_Assignment_P8_G2.pdf**](./UECS2194_Assignment_P8_G2.pdf)
-
-## 👥 Contributors
-- [Lee Cheal Xin](https://github.com/yourusername) - Menu, Item Details, T&C Page
-- [Brenda Wang Ying Tong](https://github.com/yourusername) - Login, Logout, Register, FAQ
-- [Lau Kah Kei](https://github.com/yourusername) - Contact Us, Cart & Checkout
-- [Sit Qiao Sheng](https://github.com/yourusername) - Global Components, About Page
 
 ---
 **Developed as part of the UECS2194 course.**
